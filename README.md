@@ -36,13 +36,17 @@ User monitors temperature remotely
 Simple Flow Diagram
 
 [ LM35 Sensor ]
-        ↓ (Analog Voltage)
+        ↓ 
+(Analog Voltage)
 [ MCP3208 ADC ]
-        ↓ (SPI Communication)
+        ↓ 
+(SPI Communication)
 [ LPC2129 Microcontroller ]
-        ↓ (UART - AT Commands)
+        ↓
+(UART - AT Commands)
 [ ESP-01 Wi-Fi Module ]
-        ↓ (Internet - HTTP)
+        ↓
+(Internet - HTTP)
 [ ThingSpeak Cloud ]
         ↓
 [ User Dashboard ]
